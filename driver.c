@@ -22,4 +22,8 @@ void main(int argc,char* argv[]){
 	printf("\n Enter position to delete\n");
 	scanf("%d",&position);
 	delete(&l,position);
+	for(i=1;i<3;i++)
+	{
+		printf("Edited");
+	}
 }
